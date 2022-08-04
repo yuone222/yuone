@@ -1,0 +1,86 @@
+@import url(./common.css);
+
+
+
+
+.main1{
+    width: 100%;
+    margin: 140px auto;
+    position: relative;
+}
+.main1 .slidewrap{
+}
+.main1 .slidewrap .slidelist{
+    display: inline-block;
+}
+.main1 .slidewrap .slidelist > img{
+    width: 100%;
+}
+
+
+.selectroom{
+    display: flex;
+    /* width: 940px; height: 110px; */
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 4px 4px 10px 1px gray;
+    position: absolute;
+    left: 490px; bottom: -50px;
+    padding: 50px;
+}
+
+.chkinout >a{
+}
+
+
+.selectroom .search{
+    background-color: #4069FF;
+    display: inline-block;
+    padding: 10px 95px;
+}
+
+.selectroom .search > a > p{
+    color: #fff;
+    margin: 0; padding: 0;
+}
+
+.selectroom input{
+    width: 220px;height: 42px;
+    background-color: #E7EFFF;
+    border: none;
+}
+
+.selectroom{
+}
+
+
+.main2 {
+    width: 1400px;
+    margin: 0 auto 235px ;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.main2 >h2{
+    font-size: 2.5em;
+}
+.main2>p{
+    margin: 0px auto 50px auto;
+}
+.main2 >ul>li>figure{width: 400px; height: 250px;}
+.main2 >ul>li>figure>img{width: 100%;}
+
+.roompr{
+    display: flex;
+
+    justify-content: space-between;
+    align-items:center
+
+}
+.roompr>li{
+    display: list-item;
+}
+
+.txt>b{
+    font-size: 1.75em;
+}

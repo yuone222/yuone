@@ -1,0 +1,121 @@
+@import url(./common.css);
+
+
+.img{
+    margin: 140px auto 0;
+    position: relative;}
+.img>p{width: 100%;}
+.img>p>img{width: 100%;filter: brightness(50%);}
+
+.txt{
+    position: absolute;
+    left:50%; top:455px;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.txt>b{
+    font-size: 3em;
+    color: #fff;
+}
+.txt>p{
+    color: #fff;
+    margin:10px auto;
+}
+
+.box{
+    width:1400px; height: 100px;
+    position: absolute;
+    left: 12%; bottom: 0;
+    background-color: #fff;
+} 
+
+.txt2{
+    text-align: center;
+}
+
+.txt2>a{
+    display: inline-block;
+    margin: 40px 0;
+    padding: 0 15px;
+    color: black;
+}
+
+
+.tour{width: 100%;}
+.tour>h2{
+    font-size: 2.5em;
+    text-align: center;
+    margin: 55px auto 80px;
+    font-weight: normal;
+}
+
+.nami{
+    width: 100%;
+    position: relative;
+}
+.nami>p{
+    width: 100%;
+}
+
+.nami>p>img{width: 100%;}
+
+.content{
+    position: absolute;
+    left:300px; top:450px;
+    color: #fff;
+}
+.content>p{
+    margin: 0;
+    font-size: 4em;
+}
+.content>b{
+    margin:20px 0 20px;
+    font-size: 2em;
+}
+.content>a{
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.content>a::before{
+    content: "";
+    width: 50px; height: 50px;
+    background-image: url(../img/plus.png);
+    background-size: 50px 50px;
+    display: inline-block;
+}
+
+
+
+.nami .content >a:hover{
+    display: block;
+}
+
+
+
+.plus{
+    width: 600px; height: 1062px;
+    background-color: rgba(225,236,255,0.94);
+    position: absolute;
+    left: 0; top: 0;
+    display:none;
+    transition: .5s;
+    overflow: hidden;
+    z-index: 15;
+}
+
+
+.plus_content{
+    margin: 300px 86px;
+    display: block;
+}
+
+.plus_content>h3{
+    font-size: 2.5em;
+}
+.plus_content>b{
+    font-size: 1.25em;
+    color: #626060;
+    margin: 30px auto 50px;
+}

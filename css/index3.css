@@ -1,0 +1,97 @@
+@import url(./common.css);
+
+
+.img{
+    margin: 140px auto 0;
+    position: relative;}
+.img>p{width: 100%;}
+.img>p>img{width: 100%;filter: brightness(50%);}
+
+.txt{
+    position: absolute;
+    left:50%; top:455px;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.txt>b{
+    font-size: 3em;
+    color: #fff;
+}
+.txt>p{
+    color: #fff;
+    margin:10px auto;
+}
+
+.box{
+    width: 1400px; height: 100px;
+    position: absolute;
+    left: 50%; bottom: 0;
+    transform: translateX(-50%);
+    background-color: #fff;
+} 
+
+.txt2{
+    width: 640px;
+    margin: 30px 380px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt2 input{
+    width: 215px; height: 40px;
+    border: none;
+    box-shadow: 4px 4px 10px 1px gray;
+    background-color: #F8FAFF;
+}
+
+.txt2 ::placeholder{
+    padding: 0 30px;
+    color: #000;
+}
+
+
+.love>a{
+    background-image: url(../img/arrow.png);
+    background-size: 30px 30px;
+    width: 30px; height: 30px;
+}
+
+
+
+.main2 {
+    width: 1400px;
+    margin: 60px auto 235px ;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.main2 >h2{
+    font-size: 2.5em;
+}
+.main2>p{
+    margin: 0px auto 50px auto;
+}
+.main2 >ul>li>figure{width: 400px; height: 250px;}
+.main2 >ul>li>figure>img{width: 100%;}
+
+.roompr{
+    display: flex;
+
+    justify-content: space-between;
+    align-items:center
+
+}
+.roompr>li{
+    display: list-item;
+}
+
+.txt3>b{
+    font-size: 1.75em;
+}
+
+
+
+
+
